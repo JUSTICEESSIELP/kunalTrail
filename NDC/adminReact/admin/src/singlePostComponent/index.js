@@ -11,7 +11,7 @@ function SinglePost({data, onHandleDelete}) {
 
     const formattedDate = new Date(createdAt).toLocaleDateString()
     const metaContent = meta? meta.substring(0,20): ''
-    const formattedTitle = title.slice(1, title.length-1)
+    const formattedTitle = title
  
 
   return (

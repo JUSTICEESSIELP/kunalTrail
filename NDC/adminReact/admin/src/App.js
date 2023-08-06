@@ -12,7 +12,7 @@ import SearchBar from "./components/Searchbar";
 function App() {
   const [expandNav, setExpandNav] = useState(true)
 const [searchQuery, setSearchQuery ] = useState('')
-  const expandNavFnc  = (prevState)=> setExpandNav(!expandNav)
+  const expandNavFnc  = ()=> setExpandNav(!expandNav)
 
   const handleSearchFnc = (search)=>{
     setSearchQuery(search)
